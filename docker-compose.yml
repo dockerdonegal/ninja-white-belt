@@ -5,28 +5,20 @@ services:
       context: sonarqube/
     ports:
       - 9000:9000
-      - 9092:9092
     container_name: sonarqube
-    depends_on:
-      - mysql-db
     environment:
-      - SONARQUBE_JDBC_USERNAME=sonar
-      - SONARQUBE_JDBC_PASSWORD=sonar
-      - SONARQUBE_JDBC_URL=jdbc:mysql://mysql-db:3306/sonar?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true
+      SONARQUBE_JDBC_URL: jdbc:postgresql://postgres:5432/sonar
 
-  mysql-db:
-    image: mysql
-    ports:
-      - 3306:3306
-    container_name: mysql-db
-    volumes:
-      - ./data/mysql_data:/var/lib/mysql
+  postgres:
+    image: postgres
+    container_name: postgres
     environment:
-      - MYSQL_ROOT_PASSWORD=sonar
-      - MYSQL_DATABASE=sonar
-      - MYSQL_USER=sonar
-      - MYSQL_PASSWORD=sonar
-    command: mysqld --max_allowed_packet=30M
+      - POSTGRES_USER=sonar
+      - POSTGRES_PASSWORD=sonar
+    volumes:
+      - ./data/postgresql:/var/lib/postgresql
+      # This needs explicit mapping due to https://github.com/docker-library/postgres/blob/4e48e3228a30763913ece952c611e5e9b95c8759/Dockerfile.template#L52
+      - ./data/postgresql_data:/var/lib/postgresql/dat
 
   jenkins:
     build:
@@ -53,9 +45,14 @@ services:
         external_url 'http://ci-cd.dockerdonegal.ie'
     ports:
       - '80:80'
-      - '22:22'
+    #  - '22:22'
     container_name: gitlab-ce
     volumes:
       - './data/gitlab/config:/etc/gitlab'
       - './data/gitlab/logs:/var/log/gitlab'
       - './data/gitlab/data:/var/opt/gitlab'
+
+networks: 
+  default:
+    external:
+      name: dd_ninja
