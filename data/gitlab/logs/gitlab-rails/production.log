@@ -670,3 +670,320 @@ Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
 Started GET "/help" for 127.0.0.1 at 2018-05-19 16:11:57 +0000
 Processing by HelpController#index as */*
 Completed 200 OK in 125ms (Views: 118.6ms | ActiveRecord: 0.0ms)
+Started GET "/" for  at 2018-05-19 16:42:28 +0000
+Processing by RootController#index as HTML
+Redirected to http://example.org/users/sign_in
+Filter chain halted as :redirect_unlogged_user rendered or redirected
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:42:41 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:42:56 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:43:11 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2018-05-19 16:43:25 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 388ms (Views: 371.9ms | ActiveRecord: 11.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:43:26 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:43:41 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:43:56 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:44:11 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2018-05-19 16:44:25 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 330ms (Views: 325.5ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:44:26 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:44:41 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:44:56 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:45:11 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2018-05-19 16:45:26 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 91ms (Views: 86.7ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:45:26 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/" for  at 2018-05-19 16:52:03 +0000
+Processing by RootController#index as HTML
+Redirected to http://example.org/users/sign_in
+Filter chain halted as :redirect_unlogged_user rendered or redirected
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:52:14 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 15ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2018-05-19 16:52:20 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 399ms (Views: 374.8ms | ActiveRecord: 19.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:52:29 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:52:44 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:52:59 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:53:14 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2018-05-19 16:53:20 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 352ms (Views: 348.0ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:53:29 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:53:44 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:53:59 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:54:14 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2018-05-19 16:54:20 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 341ms (Views: 333.9ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:54:29 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:54:44 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:54:59 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:55:14 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2018-05-19 16:55:21 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 98ms (Views: 91.7ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:55:29 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:55:44 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:55:59 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:56:14 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2018-05-19 16:56:21 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 601ms (Views: 595.6ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:56:29 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:56:44 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:56:59 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:57:14 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2018-05-19 16:57:22 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 177ms (Views: 167.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:57:29 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:57:44 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:57:59 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:58:14 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2018-05-19 16:58:23 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 675ms (Views: 667.6ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:58:29 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:58:44 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:58:59 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:59:14 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2018-05-19 16:59:23 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 152ms (Views: 142.2ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:59:29 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:59:44 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 16:59:59 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+StuckCiJobsWorker: Cleaning stuck builds
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:00:14 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2018-05-19 17:00:24 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 415ms (Views: 411.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:00:29 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:00:44 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:00:59 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:01:14 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2018-05-19 17:01:24 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 205ms (Views: 196.2ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:01:29 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:01:44 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:01:59 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:02:14 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2018-05-19 17:02:25 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 79ms (Views: 73.6ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:02:29 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:02:44 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:02:59 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:03:14 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2018-05-19 17:03:25 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 96ms (Views: 90.0ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:03:29 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:03:44 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:03:59 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:04:14 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2018-05-19 17:04:25 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 738ms (Views: 733.2ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:04:29 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:04:44 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:04:59 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:05:14 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2018-05-19 17:05:26 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 418ms (Views: 415.0ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:05:29 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:05:44 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:05:59 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:06:14 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2018-05-19 17:06:27 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 227ms (Views: 220.6ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:06:29 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 18ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:06:44 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 14ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:06:59 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:07:14 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:07:29 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2018-05-19 17:07:34 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 4811ms (Views: 4727.5ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:07:44 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:07:59 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:08:14 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:08:29 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:08:44 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2018-05-19 17:08:46 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 2311ms (Views: 2280.2ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:08:59 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:09:14 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Started GET "/-/metrics" for 127.0.0.1 at 2018-05-19 17:09:29 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)

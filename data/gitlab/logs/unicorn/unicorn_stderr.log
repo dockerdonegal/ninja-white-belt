@@ -31,3 +31,41 @@ I, [2018-05-19T16:12:10.815325 #980]  INFO -- : reaped #<Process::Status: pid 14
 I, [2018-05-19T16:12:10.815439 #980]  INFO -- : reaped #<Process::Status: pid 1444 exit 0> worker=4
 I, [2018-05-19T16:12:10.815552 #980]  INFO -- : reaped #<Process::Status: pid 2172 exit 0> worker=1
 I, [2018-05-19T16:12:10.815726 #980]  INFO -- : master complete
+I, [2018-05-19T16:41:18.349057 #981]  INFO -- : Refreshing Gem list
+I, [2018-05-19T16:42:31.553445 #981]  INFO -- : listening on addr=127.0.0.1:8080 fd=18
+I, [2018-05-19T16:42:31.553637 #981]  INFO -- : unlinking existing socket=/var/opt/gitlab/gitlab-rails/sockets/gitlab.socket
+I, [2018-05-19T16:42:31.553853 #981]  INFO -- : listening on addr=/var/opt/gitlab/gitlab-rails/sockets/gitlab.socket fd=19
+I, [2018-05-19T16:42:31.622527 #981]  INFO -- : master process ready
+I, [2018-05-19T16:42:32.177263 #1457]  INFO -- : worker=1 ready
+I, [2018-05-19T16:42:32.422392 #1463]  INFO -- : worker=3 ready
+I, [2018-05-19T16:42:32.447103 #1460]  INFO -- : worker=2 ready
+I, [2018-05-19T16:42:32.460299 #1454]  INFO -- : worker=0 ready
+I, [2018-05-19T16:42:32.544993 #1466]  INFO -- : worker=4 ready
+I, [2018-05-19T16:45:33.603306 #981]  INFO -- : reaped #<Process::Status: pid 1454 exit 0> worker=0
+I, [2018-05-19T16:45:33.603555 #981]  INFO -- : reaped #<Process::Status: pid 1457 exit 0> worker=1
+I, [2018-05-19T16:45:33.603698 #981]  INFO -- : reaped #<Process::Status: pid 1460 exit 0> worker=2
+I, [2018-05-19T16:45:33.603846 #981]  INFO -- : reaped #<Process::Status: pid 1463 exit 0> worker=3
+I, [2018-05-19T16:45:33.603995 #981]  INFO -- : reaped #<Process::Status: pid 1466 exit 0> worker=4
+I, [2018-05-19T16:45:33.604175 #981]  INFO -- : master complete
+I, [2018-05-19T16:50:58.094019 #547]  INFO -- : Refreshing Gem list
+I, [2018-05-19T16:52:08.364556 #547]  INFO -- : listening on addr=127.0.0.1:8080 fd=18
+I, [2018-05-19T16:52:08.364757 #547]  INFO -- : unlinking existing socket=/var/opt/gitlab/gitlab-rails/sockets/gitlab.socket
+I, [2018-05-19T16:52:08.364884 #547]  INFO -- : listening on addr=/var/opt/gitlab/gitlab-rails/sockets/gitlab.socket fd=19
+I, [2018-05-19T16:52:08.460167 #547]  INFO -- : master process ready
+I, [2018-05-19T16:52:09.136934 #990]  INFO -- : worker=3 ready
+I, [2018-05-19T16:52:09.178158 #984]  INFO -- : worker=1 ready
+I, [2018-05-19T16:52:09.282016 #981]  INFO -- : worker=0 ready
+I, [2018-05-19T16:52:09.392570 #987]  INFO -- : worker=2 ready
+I, [2018-05-19T16:52:09.395427 #993]  INFO -- : worker=4 ready
+W, [2018-05-19T17:02:59.716949 #993]  WARN -- : #<Unicorn::HttpServer:0x00007f7c687cd4b8>: worker (pid: 993) exceeds memory limit (528229376.0 bytes > 456025915 bytes)
+W, [2018-05-19T17:02:59.733002 #993]  WARN -- : Unicorn::WorkerKiller send SIGQUIT (pid: 993) alive: 645 sec (trial 1)
+I, [2018-05-19T17:03:00.028807 #547]  INFO -- : reaped #<Process::Status: pid 993 exit 0> worker=4
+I, [2018-05-19T17:03:00.272766 #2332]  INFO -- : worker=4 ready
+W, [2018-05-19T17:03:59.712632 #987]  WARN -- : #<Unicorn::HttpServer:0x00007f7c687cd4b8>: worker (pid: 987) exceeds memory limit (526033920.0 bytes > 457476017 bytes)
+W, [2018-05-19T17:03:59.712773 #987]  WARN -- : Unicorn::WorkerKiller send SIGQUIT (pid: 987) alive: 699 sec (trial 1)
+I, [2018-05-19T17:03:59.838720 #547]  INFO -- : reaped #<Process::Status: pid 987 exit 0> worker=2
+I, [2018-05-19T17:04:00.064840 #2449]  INFO -- : worker=2 ready
+W, [2018-05-19T17:05:44.715574 #990]  WARN -- : #<Unicorn::HttpServer:0x00007f7c687cd4b8>: worker (pid: 990) exceeds memory limit (523125760.0 bytes > 474466366 bytes)
+W, [2018-05-19T17:05:44.715727 #990]  WARN -- : Unicorn::WorkerKiller send SIGQUIT (pid: 990) alive: 750 sec (trial 1)
+I, [2018-05-19T17:05:44.892899 #547]  INFO -- : reaped #<Process::Status: pid 990 exit 0> worker=3
+I, [2018-05-19T17:05:45.154982 #2656]  INFO -- : worker=3 ready

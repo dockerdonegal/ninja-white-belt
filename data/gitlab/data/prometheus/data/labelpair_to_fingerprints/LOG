@@ -42,3 +42,44 @@
 16:03:51.065921 db@open done T·39.860752ms
 16:12:08.091288 db@close closing
 16:12:08.097298 db@close done T·6.007868ms
+=============== May 19, 2018 (UTC) ===============
+16:41:42.200009 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:41:42.200382 version@stat F·[3] S·351KiB[351KiB] Sc·[0.75]
+16:41:42.200410 db@open opening
+16:41:42.200566 journal@recovery F·1
+16:41:42.214909 journal@recovery recovering @9
+16:41:42.267057 memdb@flush created L0@11 N·144 S·178KiB "\x04le\b+Inf,v2208":"\x18gr..ice,v2147"
+16:41:42.267765 version@stat F·[4] S·530KiB[530KiB] Sc·[1.00]
+16:41:42.268562 db@janitor F·6 G·0
+16:41:42.268596 db@open done T·68.170376ms
+16:41:42.277705 table@compaction L0·4 -> L1·0 S·530KiB Q·2243
+16:41:42.337190 table@build created L1@14 N·1884 S·283KiB "\x04db\x06db0,v877":"\x1cre..68c,v929"
+16:41:42.338155 version@stat F·[0 1] S·283KiB[0B 283KiB] Sc·[0.00 0.00]
+16:41:42.344323 table@compaction committed F-3 S-246KiB Ke·0 D·355 T·66.533006ms
+16:41:42.344492 table@remove removed @11
+16:41:42.344566 table@remove removed @8
+16:41:42.344632 table@remove removed @5
+16:41:42.344740 table@remove removed @2
+16:42:22.098197 db@close closing
+16:42:22.098234 db@close done T·36.741µs
+=============== May 19, 2018 (UTC) ===============
+16:42:22.312712 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:42:22.312996 version@stat F·[0 1] S·283KiB[0B 283KiB] Sc·[0.00 0.00]
+16:42:22.313014 db@open opening
+16:42:22.313107 journal@recovery F·1
+16:42:22.314014 journal@recovery recovering @12
+16:42:22.318043 version@stat F·[0 1] S·283KiB[0B 283KiB] Sc·[0.00 0.00]
+16:42:22.318623 db@janitor F·3 G·0
+16:42:22.318665 db@open done T·5.640364ms
+16:45:31.126989 db@close closing
+16:45:31.127034 db@close done T·44.566µs
+=============== May 19, 2018 (UTC) ===============
+16:51:23.651129 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:51:23.651883 version@stat F·[0 1] S·283KiB[0B 283KiB] Sc·[0.00 0.00]
+16:51:23.651912 db@open opening
+16:51:23.652065 journal@recovery F·1
+16:51:23.663531 journal@recovery recovering @15
+16:51:23.667813 memdb@flush created L0@17 N·16 S·12KiB "\x06jo..ess,v2259":"\x10in..168,v2248"
+16:51:23.668180 version@stat F·[1 1] S·295KiB[12KiB 283KiB] Sc·[0.25 0.00]
+16:51:23.668878 db@janitor F·4 G·0
+16:51:23.669003 db@open done T·17.000841ms

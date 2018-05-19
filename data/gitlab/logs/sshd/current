@@ -1,29 +1,26 @@
-2018-05-19_15:16:28.12397 Server listening on 0.0.0.0 port 22.
-2018-05-19_15:16:28.12831 Server listening on :: port 22.
-2018-05-19_16:01:57.19923 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-2018-05-19_16:01:57.19930 @         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
-2018-05-19_16:01:57.19931 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-2018-05-19_16:01:57.19931 Permissions 0777 for '/etc/gitlab/ssh_host_rsa_key' are too open.
-2018-05-19_16:01:57.19931 It is required that your private key files are NOT accessible by others.
-2018-05-19_16:01:57.19932 This private key will be ignored.
-2018-05-19_16:01:57.19932 key_load_private: bad permissions
-2018-05-19_16:01:57.20049 Could not load host key: /etc/gitlab/ssh_host_rsa_key
-2018-05-19_16:01:57.20051 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-2018-05-19_16:01:57.20052 @         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
-2018-05-19_16:01:57.20052 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-2018-05-19_16:01:57.20053 Permissions 0777 for '/etc/gitlab/ssh_host_ecdsa_key' are too open.
-2018-05-19_16:01:57.20053 It is required that your private key files are NOT accessible by others.
-2018-05-19_16:01:57.20054 This private key will be ignored.
-2018-05-19_16:01:57.20055 key_load_private: bad permissions
-2018-05-19_16:01:57.20144 Could not load host key: /etc/gitlab/ssh_host_ecdsa_key
-2018-05-19_16:01:57.20145 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-2018-05-19_16:01:57.20145 @         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
-2018-05-19_16:01:57.20145 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-2018-05-19_16:01:57.20146 Permissions 0777 for '/etc/gitlab/ssh_host_ed25519_key' are too open.
-2018-05-19_16:01:57.20147 It is required that your private key files are NOT accessible by others.
-2018-05-19_16:01:57.20147 This private key will be ignored.
-2018-05-19_16:01:57.20147 key_load_private: bad permissions
-2018-05-19_16:01:57.20150 Could not load host key: /etc/gitlab/ssh_host_ed25519_key
-2018-05-19_16:01:57.20175 Server listening on 0.0.0.0 port 22.
-2018-05-19_16:01:57.20177 Server listening on :: port 22.
-2018-05-19_16:12:10.12303 Received signal 15; terminating.
+2018-05-19_16:50:23.74334 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+2018-05-19_16:50:23.74345 @         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+2018-05-19_16:50:23.74347 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+2018-05-19_16:50:23.74349 Permissions 0777 for '/etc/gitlab/ssh_host_rsa_key' are too open.
+2018-05-19_16:50:23.74351 It is required that your private key files are NOT accessible by others.
+2018-05-19_16:50:23.74352 This private key will be ignored.
+2018-05-19_16:50:23.74355 key_load_private: bad permissions
+2018-05-19_16:50:23.74363 Could not load host key: /etc/gitlab/ssh_host_rsa_key
+2018-05-19_16:50:23.74367 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+2018-05-19_16:50:23.74368 @         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+2018-05-19_16:50:23.74370 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+2018-05-19_16:50:23.74372 Permissions 0777 for '/etc/gitlab/ssh_host_ecdsa_key' are too open.
+2018-05-19_16:50:23.74374 It is required that your private key files are NOT accessible by others.
+2018-05-19_16:50:23.74376 This private key will be ignored.
+2018-05-19_16:50:23.74377 key_load_private: bad permissions
+2018-05-19_16:50:23.74412 Could not load host key: /etc/gitlab/ssh_host_ecdsa_key
+2018-05-19_16:50:23.74417 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+2018-05-19_16:50:23.74419 @         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+2018-05-19_16:50:23.74421 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+2018-05-19_16:50:23.74423 Permissions 0777 for '/etc/gitlab/ssh_host_ed25519_key' are too open.
+2018-05-19_16:50:23.74424 It is required that your private key files are NOT accessible by others.
+2018-05-19_16:50:23.74426 This private key will be ignored.
+2018-05-19_16:50:23.74428 key_load_private: bad permissions
+2018-05-19_16:50:23.74434 Could not load host key: /etc/gitlab/ssh_host_ed25519_key
+2018-05-19_16:50:23.74447 Server listening on 0.0.0.0 port 22.
+2018-05-19_16:50:23.74453 Server listening on :: port 22.
