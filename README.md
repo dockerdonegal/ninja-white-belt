@@ -8,6 +8,11 @@
 gradle clean build sonarqube
 ```
 
+```
+# make sure docker is the owner of the data
+sudo chown -R root:docker docker-compose.yml data
+```
+
 
 ## Useful credentials, tokens and setups
 * Sonarqube credential: **admin/admin**
