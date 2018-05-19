@@ -1,0 +1,6 @@
+time="2018-05-19T16:09:13+00:00" level=info msg="finished HTTP request" duration=0.205732969 method=POST pid=2122 url="http://127.0.0.1:8080/api/v4/internal/allowed"
+time="2018-05-19T16:09:13+00:00" level=info msg="finished HTTP request" duration=0.037828793 method=POST pid=2122 url="http://127.0.0.1:8080/api/v4/internal/pre_receive"
+time="2018-05-19T16:09:13+00:00" level=info msg="finished HTTP request" duration=0.050767379 method=POST pid=2132 url="http://127.0.0.1:8080/api/v4/internal/post_receive"
+time="2018-05-19T16:11:22+00:00" level=info msg="finished HTTP request" duration=0.062334724 method=POST pid=2435 url="http://127.0.0.1:8080/api/v4/internal/allowed"
+time="2018-05-19T16:11:22+00:00" level=info msg="finished HTTP request" duration=0.008794882 method=POST pid=2435 url="http://127.0.0.1:8080/api/v4/internal/pre_receive"
+time="2018-05-19T16:11:22+00:00" level=info msg="finished HTTP request" duration=0.235407038 method=POST pid=2447 url="http://127.0.0.1:8080/api/v4/internal/post_receive"

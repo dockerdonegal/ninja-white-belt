@@ -1,0 +1,33 @@
+I, [2018-05-19T15:18:32.266572 #951]  INFO -- : Refreshing Gem list
+I, [2018-05-19T15:19:17.777123 #951]  INFO -- : listening on addr=127.0.0.1:8080 fd=18
+I, [2018-05-19T15:19:17.777620 #951]  INFO -- : listening on addr=/var/opt/gitlab/gitlab-rails/sockets/gitlab.socket fd=19
+I, [2018-05-19T15:19:17.939546 #951]  INFO -- : master process ready
+I, [2018-05-19T15:19:20.545599 #1221]  INFO -- : worker=3 ready
+I, [2018-05-19T15:19:20.546893 #1212]  INFO -- : worker=0 ready
+I, [2018-05-19T15:19:20.567899 #1224]  INFO -- : worker=4 ready
+I, [2018-05-19T15:19:20.545591 #1215]  INFO -- : worker=1 ready
+I, [2018-05-19T15:19:20.610223 #1218]  INFO -- : worker=2 ready
+W, [2018-05-19T15:34:45.971425 #1212]  WARN -- : #<Unicorn::HttpServer:0x00007f4faddcd4b8>: worker (pid: 1212) exceeds memory limit (503894016.0 bytes > 431569887 bytes)
+W, [2018-05-19T15:34:46.128430 #1212]  WARN -- : Unicorn::WorkerKiller send SIGQUIT (pid: 1212) alive: 840 sec (trial 1)
+I, [2018-05-19T15:34:51.462758 #951]  INFO -- : reaped #<Process::Status: pid 1212 exit 0> worker=0
+I, [2018-05-19T15:34:58.117933 #3308]  INFO -- : worker=0 ready
+I, [2018-05-19T16:02:51.148051 #980]  INFO -- : Refreshing Gem list
+I, [2018-05-19T16:03:58.338937 #980]  INFO -- : listening on addr=127.0.0.1:8080 fd=18
+I, [2018-05-19T16:03:58.339135 #980]  INFO -- : unlinking existing socket=/var/opt/gitlab/gitlab-rails/sockets/gitlab.socket
+I, [2018-05-19T16:03:58.339691 #980]  INFO -- : listening on addr=/var/opt/gitlab/gitlab-rails/sockets/gitlab.socket fd=19
+I, [2018-05-19T16:03:58.408404 #980]  INFO -- : master process ready
+I, [2018-05-19T16:03:59.049730 #1432]  INFO -- : worker=0 ready
+I, [2018-05-19T16:03:59.253199 #1438]  INFO -- : worker=2 ready
+I, [2018-05-19T16:03:59.253974 #1441]  INFO -- : worker=3 ready
+I, [2018-05-19T16:03:59.293491 #1444]  INFO -- : worker=4 ready
+I, [2018-05-19T16:03:59.298544 #1435]  INFO -- : worker=1 ready
+W, [2018-05-19T16:09:19.996133 #1435]  WARN -- : #<Unicorn::HttpServer:0x00007fb66cfcd4b8>: worker (pid: 1435) exceeds memory limit (514660864.0 bytes > 489675688 bytes)
+W, [2018-05-19T16:09:19.996998 #1435]  WARN -- : Unicorn::WorkerKiller send SIGQUIT (pid: 1435) alive: 311 sec (trial 1)
+I, [2018-05-19T16:09:20.331040 #980]  INFO -- : reaped #<Process::Status: pid 1435 exit 0> worker=1
+I, [2018-05-19T16:09:20.547760 #2172]  INFO -- : worker=1 ready
+I, [2018-05-19T16:12:10.815011 #980]  INFO -- : reaped #<Process::Status: pid 1432 exit 0> worker=0
+I, [2018-05-19T16:12:10.815195 #980]  INFO -- : reaped #<Process::Status: pid 1438 exit 0> worker=2
+I, [2018-05-19T16:12:10.815325 #980]  INFO -- : reaped #<Process::Status: pid 1441 exit 0> worker=3
+I, [2018-05-19T16:12:10.815439 #980]  INFO -- : reaped #<Process::Status: pid 1444 exit 0> worker=4
+I, [2018-05-19T16:12:10.815552 #980]  INFO -- : reaped #<Process::Status: pid 2172 exit 0> worker=1
+I, [2018-05-19T16:12:10.815726 #980]  INFO -- : master complete

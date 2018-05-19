@@ -1,0 +1,44 @@
+=============== May 19, 2018 (UTC) ===============
+15:19:30.693642 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:19:30.693985 db@open opening
+15:19:30.694595 version@stat F·[] S·0B[] Sc·[]
+15:19:30.824217 db@janitor F·2 G·0
+15:19:30.824247 db@open done T·130.249905ms
+15:20:16.403719 db@close closing
+15:20:16.404022 db@close done T·301.033µs
+=============== May 19, 2018 (UTC) ===============
+15:20:16.914404 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:20:16.915234 version@stat F·[] S·0B[] Sc·[]
+15:20:16.915247 db@open opening
+15:20:16.915307 journal@recovery F·1
+15:20:16.926667 journal@recovery recovering @1
+15:20:16.938250 memdb@flush created L0@2 N·127 S·127KiB "\x04db,v45":"\x1cre.._id,v57"
+15:20:16.938868 version@stat F·[1] S·127KiB[127KiB] Sc·[0.25]
+15:20:16.939344 db@janitor F·3 G·0
+15:20:16.939373 db@open done T·24.118156ms
+15:46:03.380494 db@close closing
+15:46:03.381453 db@close done T·955.597µs
+=============== May 19, 2018 (UTC) ===============
+16:03:14.307797 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:03:14.308022 version@stat F·[1] S·127KiB[127KiB] Sc·[0.25]
+16:03:14.308044 db@open opening
+16:03:14.308162 journal@recovery F·1
+16:03:14.308797 journal@recovery recovering @3
+16:03:14.315412 memdb@flush created L0@5 N·23 S·61KiB "\x04le,v131":"\x10in..nce,v135"
+16:03:14.317855 version@stat F·[2] S·189KiB[189KiB] Sc·[0.50]
+16:03:14.318414 db@janitor F·4 G·0
+16:03:14.318439 db@open done T·10.382771ms
+16:03:50.674884 db@close closing
+16:03:50.674930 db@close done T·45.183µs
+=============== May 19, 2018 (UTC) ===============
+16:03:51.066064 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:03:51.066316 version@stat F·[2] S·189KiB[189KiB] Sc·[0.50]
+16:03:51.066338 db@open opening
+16:03:51.066459 journal@recovery F·1
+16:03:51.072122 journal@recovery recovering @6
+16:03:51.101937 memdb@flush created L0@8 N·5 S·15KiB "\x06job,v156":"\x10in..nce,v157"
+16:03:51.103073 version@stat F·[3] S·204KiB[204KiB] Sc·[0.75]
+16:03:51.103582 db@janitor F·5 G·0
+16:03:51.103614 db@open done T·37.265451ms
+16:12:08.097321 db@close closing
+16:12:08.098306 db@close done T·977.951µs
